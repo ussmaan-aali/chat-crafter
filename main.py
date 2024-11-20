@@ -54,7 +54,7 @@ def chatbot_creator():
         documents = [load_text_file(doc) for doc in loaded_docs]
         # Create RAG chatbot
         chatbot = chain(documents, chatbot_name, system_prompt)
-        query = input("When did the health for AWS kubernetes posted?")
+        query = "When did the health for AWS kubernetes posted?"
         response = chatbot.invoke(query)
         st.write(response)
 
