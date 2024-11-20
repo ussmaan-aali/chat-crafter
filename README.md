@@ -62,3 +62,12 @@ streamlit run main.py
 
 ## Note
 - Create a .env file in the root directory containing Groq api key.
+
+## Demo
+#### Here are some screenshots from the app.
+- Chatbot app
+![alt text](misc/app.png)
+- Chatbot creation
+![alt text](misc/creator.png)
+- Chatbot usage
+![alt text](misc/bot.png)

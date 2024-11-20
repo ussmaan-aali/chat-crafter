@@ -1,7 +1,6 @@
 import os
-from typing import List, Dict
+from typing import Dict
 import json
-from src.chatbot_handler import chain
 import streamlit as st
 import src.vectorStore_creator as vsc
 from src.chain import chain
@@ -68,7 +67,7 @@ def home():
 def chatbot_creator():
     st.header("Chatbot Craft")
 
-    chatbot_name = st.text_input("Enter the name for your chatbot:")
+    chatbot_name = st.text_input("Enter the name for your chatbot without space:")
     uploaded_docs = st.file_uploader("Upload text documents for chatbot", type=['pdf'], accept_multiple_files=True)
 
     if uploaded_docs and chatbot_name:
