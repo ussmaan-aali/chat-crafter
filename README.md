@@ -71,3 +71,10 @@ streamlit run main.py
 ![alt text](misc/creator.png)
 - Chatbot usage
 ![alt text](misc/bot.png)
+
+## Further steps
+
+- Add user authentication
+- Upgrade to handle other file types for vectorstore creation like txt or docx [right now it only works with pdf]
+- Add personality setup while creation of chatbot
+- And more
